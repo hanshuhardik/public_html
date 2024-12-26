@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+body {
+            font-family: Arial, Helvetica, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            background-image: url("../Pictures/friction/profile.avif");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: 40%;
+            
+        }
+
+
+input {
+  width: 100%;
+  padding: 6px 10px;
+  color:black;
+  display: inline-block;
+  border: 1px solid #d17dbc;
+  box-sizing: border-box;
+}
+
+button {
+  
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 4px;;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin-top: 6px;
+}
+
+img.avatar {
+  width: 20vh;
+  height:20vh;
+  border-radius: 50%;
+}
+
+.container {
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  justify-content:end
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+
+.login-container{
+    border: 3px solid #972b7c;
+    border-radius: 4px;
+    width:300px;
+    height:auto;
+    padding: 5px;
+}
+label{
+    font-size: small;
+}
+ a{
+    text-decoration: none;
+    font-size: small;
+    color:red;
+}
+h1{
+    background: rgb(205,32,174);
+        background: linear-gradient(90deg, rgba(205,32,174,1) 0%, rgba(121,9,118,1) 35%, rgba(144,58,168,1) 58%, rgba(0,204,255,1) 100%); 
+     color: white;
+}
+</style>
+</head>
+<body>
+
+<h1>Profile Details</h1>
+
+<div class="login-container" >
+  <div class="imgcontainer">
+    <img src="../Pictures/friction/user.jpeg".png" alt="Avatar" class="avatar">
+    <h2>xyz abc</h2>
+  </div>
+
+  <div class="">
+    <label for="uname">Username</label>
+    <input type="text"name="uname" value="xyzAbc">
+
+    <label for="email">Email</label>
+    <input type="email"  name="email" value="xyz@gmail.com">
+    <label for="phone">Phone No.</label>
+    <input type="text"  name="phone" value="9874512XXX">
+    
+  </div>
+
+  <div class="container" >
+   <a href="./login.html">Logout</a>
+    
+  </div>
+</div>
+
+</body>
+</html>

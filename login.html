@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LoginPage</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            background-image: url("../Pictures/friction/backg1.jpeg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+form {border: 3px solid #d17dbc;
+    border-radius: 4px;}
+
+input{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #d17dbc;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+button {
+  background-color: rgb(167, 49, 167);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  font-size: medium;
+  border-radius: 4px;
+}
+button a{
+    color:white;
+    font-size: medium;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.cancelbtn {
+  width: auto;
+  height:20px;
+  padding: 1px 10px;
+  background-color: #f44336;
+}
+.cancelbtn a{
+  color:white;
+  text-decoration: none;
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 10px;
+}
+span.psw a{
+    text-decoration: none;
+}
+.login-container{
+    width:300px;
+    height:317px;
+}
+h1{
+    background: rgb(205,32,174);
+        background: linear-gradient(90deg, rgba(205,32,174,1) 0%, rgba(121,9,118,1) 35%, rgba(144,58,168,1) 58%, rgba(0,204,255,1) 100%); 
+     color:white
+}
+    </style>
+</head>
+<body>
+    <h1>Login Form</h1>
+
+<form action="/" method="" class="login-container">
+  
+  <div class="container">
+    <label for="uname"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="uname" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+        
+    <button type="submit"><a href="./book.html">Login</a></button>
+    
+  </div>
+
+  <div class="container" style="background-color:#d17dbc">
+    <button type="button" class="cancelbtn"><a href="./book.html">Cancel</a></button>
+    <span class="psw"> <a href="./register.html">Register Now</a></span>
+  </div>
+</form>
+
+    
+</body>
+</html>

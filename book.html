@@ -1,0 +1,360 @@
+<!doctype html>
+<html>
+<head>
+<title> book Showroom</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Croissant+One&display=swap" rel="stylesheet">
+<style>
+    .header{
+        display: flex;
+        justify-content:space-between;
+        width:99%;
+        margin:1px;
+        height:70px;
+        margin-right:5px;
+        position: fixed;
+        padding: 5px;
+        height: 5vh;
+        align-items: center;
+        background: rgb(205,32,174);
+        background: linear-gradient(90deg, rgba(205,32,174,1) 0%, rgba(121,9,118,1) 35%, rgba(144,58,168,1) 58%, rgba(0,204,255,1) 100%); 
+        border-radius: 5px;
+        top:0;overflow: hidden;
+        
+    }
+  .header p{
+        font-weight: bold;
+        font-size: 33px;
+        font-family:cursive;
+        color:white;
+        
+    }
+    button{
+        font-size: 20px;
+        border:2px solid white;
+        background: transparent;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 5px;
+        font-size: medium;
+        border-radius: 5px;
+        color: white;
+    }
+    nav{
+        width:auto;
+        color:red;
+        display: flex;
+        gap:10%;
+    }
+    nav a{
+        text-decoration: none;
+        font-size: medium;
+        color:white;
+        
+    }
+    nav a:hover{
+        font-weight: 700;
+    }
+    fieldset{
+        border-left:none;
+        border-bottom: none;
+        border-right: none;
+        border-top:2px solid violet;
+        display: flex;
+        justify-content: space-around;
+        padding-top: 20px;;
+
+    }
+    fieldset legend{
+        font-weight: 600;
+        
+    }
+    .container{
+        border:2px dotted hotpink;
+        width:100px;
+        height:100px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container:hover{
+        border:2px solid hotpink;
+        
+    }
+    .container-1{
+        display: flex;
+        flex-direction: column;
+       align-items: center;
+        
+    }
+    .container-1 center{
+            font-size: x-small;
+    }
+    .container-box{
+        width: 100px;
+        height: 100px;;
+        border-radius: 5px;
+        border:1px dotted violet;
+        padding: 2%;
+    }
+    .container-box:hover{
+        width: 100px;
+        height: 100px;;
+        border-radius: 5px;
+        border:1px solid violet;
+    }
+    .fieldSet{
+        gap:2%;
+        margin-bottom: 20px;;
+    }
+    .box{
+        width:90%;
+        height:75px;
+        display: flex;
+        margin-bottom: 20px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+    }
+    .fieldSet center{
+        font-size: x-small;
+    }
+    .container-1 a{
+        text-decoration: none;
+        font-size: x-small;
+        color:black;
+    }
+    .front{
+        width:100%;
+        height:60vh;
+        background-image: url("../Pictures/coursol.jpg");
+        background-size: cover;
+        background-position: 60%;
+        background-repeat: no-repeat;
+        color:white;
+        font-family: "Playwrite AU VIC Guides", serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 60px;
+  filter:opacity(90%)
+}
+.croissant-one-regular {
+  font-family: "Croissant One", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.head-1{
+    font-size:80px;
+    font-weight: 700;
+    width:100%;
+        height:60vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+}
+.head-2{
+    font-size: 50px;
+}
+.image{
+    width:70px;
+    height:90px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+.image1{
+    margin-top: 20px;
+   
+    width:80px;
+    height:100px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+.image1:hover{
+    margin-top: 20px;
+   
+    width:82px;
+    height:101px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+footer{
+    width:100%;
+    height:40vh;
+    
+    background: rgb(205,32,174);
+        background: linear-gradient(90deg, rgba(205,32,174,1) 0%, rgba(121,9,118,1) 35%, rgba(144,58,168,1) 58%, rgba(0,204,255,1) 100%); 
+     
+    margin:0;
+    border-radius: 2px;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body,html{
+    padding: 0;
+    margin: 0;
+}
+.con-foot{
+    border:2px solid white;
+    width:90%;
+    height:90%;
+    border-radius: 7px;
+    background-color: rgb(218, 128, 218);
+}
+.foot-details{
+    height:85%;
+}
+.foot-reserved{
+    height:9%;
+    font-size: x-small;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
+    color:whitesmoke;
+}
+table {
+    padding: 30px;
+    font-size: small;
+    width:100%;
+}
+
+tr{
+color:white;
+width:100%;
+}
+th{
+    width:33%;
+    font-size: medium;
+    
+}
+td{
+    width:33%;
+    text-align: center;
+}
+td a{
+    text-decoration: none;
+    color:white;
+}
+
+</style>
+</head>
+<body>
+<header class="header">
+<p>BookShelf</p>
+<nav>
+
+<a href='#Friction'>Fiction</a>
+<a href='#Religious'>Religious</a>
+<a href='#education'>Education</a>
+<a href='#Romance'>Romance</a>
+<a href='#Biographies'>Biographies</a>
+
+</nav>
+<a href="./profile.html"><button> My Account</button></a>
+</header>
+
+<div class="front croissant-one-regular">
+<center class="head-1">Book Are Like Mirror</center>
+</div>
+<fieldset>
+    <legend>View All Categories</legend>
+    <div class="container-1"><div class="container"><img class="image" src="../Pictures/friction/edu.jpeg" alt="Educatiom"></div><a href='#education'>Education</a><a href='#education'>curriculum</a></div>
+    <div class="container-1"><div class="container"><img class="image" src="../Pictures/friction/religious.jpeg" alt="religious"></div><a href='#Religious'>Religious & </a><a href="#Religious">Sprituality</a></div>
+    <div class="container-1"><div class="container"><img class="image" src="../Pictures/friction/romance.jpeg" alt="Romance"></div><a href='#Romance'>Romance </a><a href='#Romance'>Books</a></div>
+    <div class="container-1"><div class="container"><img class="image" src="../Pictures/friction/literature.jpeg" alt="Literature"></div><a href='#Biographies'>Biographies  </a><a  href='#Biographies'>Books</a></div>
+    <div class="container-1"><div class="container"><img class="image" src="../Pictures/friction/friction.avif" alt="friction"></div><a href='#Friction'>Friction & </a><a  href='#Friction'>Fantasy</a></div>
+</fieldset>
+<fieldset id="Featured"  class="fieldSet">
+    <legend>Featured New Books</legend>
+    <div class="container-box"><div class="box"><img class="image1" src="../Pictures/friction/n1.avif" alt="friction"></div><center><h4>Patriot</h4></center></div>
+    <div class="container-box"><div class="box"><img class="image1" src="../Pictures/friction/n2.avif" alt="friction"></div><center><h4>Question 7</h4></center></div>
+    <div class="container-box"><div class="box"><img class="image1" src="../Pictures/friction/n3.avif" alt="friction"></div><center><h4>Orbital</h4></center></div>
+    <div class="container-box"><div class="box"><img class="image1" src="../Pictures/friction/n4.avif" alt="friction"></div><center><h4>Precipice</h4></center></div>
+    <div class="container-box"><div class="box"><img class="image1" src="../Pictures/friction/n5.avif" alt="friction"></div><center> <h4>Nuclear War</h4></center></div>
+</fieldset>
+<fieldset id="Friction"  class="fieldSet">
+    <legend>Fiction & Fantasy </legend>
+    <div class="container-box"><div class="box"><img class="image1" src="../Pictures/friction/friction1.avif" alt="friction"></div><center><h3>War & peace</h3></center></div>
+    <div class="container-box"><div class="box"><img class="image1" src="../Pictures/friction/friction2.avif" alt="friction"></div><center><h3>Fathers & Sons</h3> </center></div>
+    <div class="container-box"><div class="box"><img class="image1" src="../Pictures/friction/f3.avif" alt="friction"></div><center><h3>The White Guard</h3> </center></div>
+    <div class="container-box"><div class="box"><img class="image1" src="../Pictures/friction/f4.avif" alt="friction"></div><center><h3>The First Circle</h3> </center></div>
+    <div class="container-box"><div class="box"><img class="image1" src="../Pictures/friction/f5.avif" alt="friction"></div><center> <h3>Day of the Oprichnk</h3></center></div>
+</fieldset>
+<fieldset id="Religious"  class="fieldSet">
+    <legend>Religious &  Sprituality</legend>
+    <div class="container-box"><div class="box"><img class="image1" src="../Pictures/friction/r1.avif" alt="friction"></div><center><h4>The Ayurvedic</h4></center></div>
+    <div class="container-box"><div class="box"><img class="image1" src="../Pictures/friction/r2.avif" alt="friction"></div><center><h4>Light of Life</h4></center></div>
+    <div class="container-box"><div class="box"><img class="image1" src="../Pictures/friction/r3.avif" alt="friction"></div><center><h4>The Spine</h4></center></div>
+    <div class="container-box"><div class="box"><img class="image1" src="../Pictures/friction/r4.avif" alt="friction"></div><center><h4>Ramakrishna</h4></center></div>
+    <div class="container-box"><div class="box"><img class="image1" src="../Pictures/friction/r5.avif" alt="friction"></div><center> <h4>Buddhism</h4></center></div>
+</fieldset>
+<fieldset id="education" class="fieldSet">
+    <legend>Education Books</legend>
+    <div class="container-box"><div class="box"><img class="image1" src="../Pictures/friction/e1.avif" alt="friction"></div><center><h4>Default</h4></center></div>
+    <div class="container-box"><div class="box"><img class="image1" src="../Pictures/friction/e2.avif" alt="friction"></div><center><h4>Growth </h4></center></div>
+    <div class="container-box"><div class="box"><img class="image1" src="../Pictures/friction/e3.avif" alt="friction"></div><center><h4>The Lean Startup</h4></center></div>
+    <div class="container-box"><div class="box"><img class="image1" src="../Pictures/friction/e4.avif" alt="friction"></div><center><h4>Steve Jobs</h4></center></div>
+    <div class="container-box"><div class="box"><img class="image1" src="../Pictures/friction/e5.avif" alt="friction"></div><center> <h4>Digital Decisioning </h4></center></div>
+</fieldset>
+<fieldset id="Romance"  class="fieldSet">
+    <legend>Romance Books</legend>
+    <div class="container-box"><div class="box"><img class="image1" src="../Pictures/friction/n1.avif" alt="friction"></div><center><h4>Patriot</h4></center></div>
+    <div class="container-box"><div class="box"><img class="image1" src="../Pictures/friction/n2.avif" alt="friction"></div><center><h4>Question 7</h4></center></div>
+    <div class="container-box"><div class="box"><img class="image1" src="../Pictures/friction/n3.avif" alt="friction"></div><center><h4>Orbital</h4></center></div>
+    <div class="container-box"><div class="box"><img class="image1" src="../Pictures/friction/n4.avif" alt="friction"></div><center><h4>Precipice</h4></center></div>
+    <div class="container-box"><div class="box"><img class="image1" src="../Pictures/friction/n5.avif" alt="friction"></div><center> <h4>Nuclear War</h4></center></div>
+</fieldset>
+<fieldset  id="Biographies" class="fieldSet">
+    <legend>Biographies </legend>
+    <div class="container-box"><div class="box"><img class="image1" src="../Pictures/friction/b1.avif" alt="friction"></div><center><h4>Barack Obama</h4></center></div>
+    <div class="container-box"><div class="box"><img class="image1" src="../Pictures/friction/b2.avif" alt="friction"></div><center><h4>William Shakespeare</h4></center></div>
+    <div class="container-box"><div class="box"><img class="image1" src="../Pictures/friction/b3.avif" alt="friction"></div><center><h4>Red Comer</h4></center></div>
+    <div class="container-box"><div class="box"><img class="image1" src="../Pictures/friction/b4.avif" alt="friction"></div><center><h4>Up from the Depths</h4></center></div>
+    <div class="container-box"><div class="box"><img class="image1" src="../Pictures/friction/b5.avif" alt="friction"></div><center> <h4>Secret Harvests</h4></center></div>
+</fieldset>
+<footer>
+<div class="con-foot">
+    <div class="foot-details">
+       <table>
+        <tr>
+        <th>About Us</th>
+        <th>Categories</th>
+        <th>Quick Help</th>
+        </tr>
+        <tr>
+            <td>About us</td>
+            <td><a href='#Friction'>Friction</a></td>
+            <td>Help Center</td>
+        </tr>
+        <tr>
+            <td>Careers</td>
+            <td><a href='#education'>Education</a></td>
+            <td>contacts</td>
+          
+        </tr>
+        <tr>
+            <td>Authors</td>
+            <td><a href='#Religious'>Religion</a></td>
+        </tr>
+        <tr>
+            <td>noble,inc.</td>
+            <td><a href='#Romance'>Romance</a></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><a href='#Biographies'>Biographies</a></td>
+        </tr>
+       </table>
+    </div>
+    <div class="foot-reserved">
+        <p>@Copyright The Reader All rights reserved</p>
+        <p>Site by HardikMehta</p>
+    </div>
+</div>
+</footer>
+</body>
+</head>

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LoginPage</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            background-image: url("../Pictures/friction/backg1.jpeg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        h1{
+    background: rgb(205,32,174);
+        background: linear-gradient(90deg, rgba(205,32,174,1) 0%, rgba(121,9,118,1) 35%, rgba(144,58,168,1) 58%, rgba(0,204,255,1) 100%); 
+     color: white;
+}
+form {border: 3px solid #d17dbc;
+    border-radius: 4px;}
+
+input{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #d17dbc;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+button {
+  background-color: rgb(175, 32, 175);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  font-size: medium;
+  border-radius: 4px;
+}
+button a{
+    color:white;
+    font-size: medium;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.cancelbtn {
+  width: auto;
+  height:20px;
+  padding: 1px 10px;
+  background-color: #f44336;
+}
+.cancelbtn a{
+  color:white;
+  text-decoration: none;
+}
+
+.container {
+  padding: 19px;
+}
+.container-box{
+    display: flex;
+
+}
+
+span.psw {
+  float: right;
+  padding-top: px;
+}
+span.psw a{
+    text-decoration: none;
+    font-size: small;
+}
+.login-container{
+    width:600px;
+    height:auto;
+}
+    </style>
+</head>
+<body>
+    <h1>Register Form</h1>
+
+<form action="/" method="" class="login-container">
+  
+    <div class="container-box">
+        <div class="container">
+            <label for="name"><b>Name</b></label>
+            <input type="text" placeholder="Enter Name" name="name" required>
+        
+            <label for="email"><b>Email</b></label>
+            <input type="email" placeholder="xxxx@gmail.com" name="email" required>
+            
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+            
+            
+          </div>
+          <div class="container">
+            <label for="uname"><b>Username</b></label>
+            <input type="text" placeholder="Enter Username" name="uname" required>
+        
+            <label for="phone"><b>Phone No.</b></label>
+            <input type="String" placeholder="9784521XXX" name="phone" required>
+                
+            <label for="cnfpsw"><b> Confirm Password</b></label>
+            <input type="password" placeholder="Enter Password" name="cnfpsw" required>
+            
+          </div>
+                
+        
+      </div>
+    
+  
+
+  <div class="container" style="background-color:#d17dbc">
+    <button type="submit"><a href="./book.html">Sign Up</a></button>
+    <span class="psw"> <a href="./login.html">Login Now</a></span>
+  </div>
+</form>
+
+    
+</body>
+</html>
